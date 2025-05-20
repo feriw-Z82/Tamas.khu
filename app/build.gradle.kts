@@ -12,6 +12,7 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
+        multiDexEnabled = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -40,4 +41,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation ("com.intuit.sdp:sdp-android:1.1.1")
+    implementation ("com.intuit.ssp:ssp-android:1.1.1")
+    implementation ("android.recyclerview:recyclerview:1.1.1")
+    implementation ("com.google.android.material:material:1.12.0")
+    implementation ("com.android.support.mutidex:1.0.3")
+    implementation ("com.squareup.retrofit2:retrofit2:2.11.0")
+    implementation ("com.squareup.retrofit2:converter-scalars:2.11.0")
+    implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
+
 }

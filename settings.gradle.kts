@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        maven("https://maven.myket.ir")
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
